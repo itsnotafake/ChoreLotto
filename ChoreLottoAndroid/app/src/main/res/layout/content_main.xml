@@ -23,8 +23,9 @@
             android:id="@+id/content_main_draw"
             android:layout_width="240dp"
             android:layout_height="240dp"
-            android:background="@drawable/content_main_draw_bg"
-            android:theme="@style/StandardButton"
+            android:background="@drawable/content_main_draw_bg_ripple"
+            android:theme="@style/StandardImageButton"
+            android:scaleType="center"
 
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"

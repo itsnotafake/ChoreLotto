@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">ChoreLotto</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_list">See All Chores</string>
 </resources>

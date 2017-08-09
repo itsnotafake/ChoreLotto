@@ -2,9 +2,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="n7.chorelotto.MainActivity">
+
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:id="@+id/action_list"
+        android:icon="@drawable/ic_list"
+        android:title="@string/action_list"
+        app:showAsAction="always"/>
 </menu>

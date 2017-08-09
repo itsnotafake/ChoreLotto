@@ -1,16 +1,21 @@
 package n7.chorelotto;
 
 import android.graphics.Color;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.AppCompatImageButton;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_list) {
             return true;
         }
 
@@ -66,8 +71,13 @@ public class MainActivity extends AppCompatActivity {
                         Color.YELLOW,
                         Color.RED}
         );
+        rainbow.setGradientType(GradientDrawable.SWEEP_GRADIENT);
         ImageView background = (ImageView) findViewById(R.id.content_main_bg);
         background.setImageDrawable(rainbow);
+
+        //Initialize AppCompatImageButton src image
+        AppCompatImageButton draw = (AppCompatImageButton) findViewById(R.id.content_main_draw);
+        Picasso.with(this).load(R.drawable.closed3).into(draw);
     }
 
     private void initializeFAB(){

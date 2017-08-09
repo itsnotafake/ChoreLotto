@@ -17,7 +17,7 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="StandardButton" parent="ThemeOverlay.AppCompat.Dark">
+    <style name="StandardImageButton" parent="ThemeOverlay.AppCompat.Dark">
         <item name="colorControlHighlight">@color/colorAccent</item>
     </style>
 
