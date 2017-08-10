@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/BLACK"
+    android:textSize="20sp"
+
+    android:layout_marginTop="@dimen/recycler_margin_ver"
+    android:layout_marginBottom="@dimen/recycler_margin_ver"
+    android:layout_marginLeft="@dimen/recycler_margin_hor"
+    android:layout_marginStart="@dimen/recycler_margin_hor"
+    android:layout_marginRight="@dimen/recycler_margin_hor"
+    android:layout_marginEnd="@dimen/recycler_margin_hor"/>

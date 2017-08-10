@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">ChoreLotto</string>
     <string name="action_list">See All Chores</string>
+    <string name="chorelist" translatable="false">chorelist</string>
+
+    <!-- Strings for Main -->
+    <string name="main_notitle">Chore not added, you need to have a title</string>
+    <string name="main_choreadded">Chore added!</string>
+
+    <!-- Strings for NewDialog -->
+    <string name="new_title">Add a new chore</string>
+    <string name="new_body">If you want, add a description of your chore</string>
+    <string name="new_positive">Create Chore</string>
+    <string name="new_negative">Cancel</string>
+
+    <!-- Strings for ViewDialog -->
+    <string name="view_toolbar">Your Chores</string>
+    <string name="view_positive">Close</string>
 </resources>
